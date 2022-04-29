@@ -12,7 +12,7 @@ public class areaProgram {
 		System.out.println("Please enter the radius!");
 		double radius = sc.nextDouble();
 		
-		System.out.println("The area of this circle is " +Math.PI * radius * radius);
+		System.out.println("The area of this circle is " +Math.PI * Math.pow(radius, 2));
 
 	}
 
